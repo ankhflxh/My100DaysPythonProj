@@ -22,6 +22,6 @@ if Tip == 10:
 elif Tip == 15:
     print(f"Each person's bill is {Sum2}")
 elif Tip == 20:
-    print(f"Each person's bill is {Sum3}")
+    print(f"Each person's bill is £{Sum3}")
 else:
     print("PLEASE INPUT DETAILS REQUIRED!")
