@@ -18,9 +18,9 @@ Sum2 = round((TotalBill + (TotalBill * amount2)) / TotalPeople, 2)
 Sum3 = round((TotalBill + (TotalBill * amount3)) / TotalPeople, 2)
 #the if/else statement for each condition is introduced to run on expected input
 if Tip == 10:
-    print(f"Each person's bill is {Sum1}")
+    print(f"Each person's bill is £{Sum1}")
 elif Tip == 15:
-    print(f"Each person's bill is {Sum2}")
+    print(f"Each person's bill is £{Sum2}")
 elif Tip == 20:
     print(f"Each person's bill is £{Sum3}")
 else:
