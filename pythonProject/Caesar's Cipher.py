@@ -33,7 +33,7 @@ def decrypt(original_text, shift_amount):
         if i not in alphabet:
             cipher += i
         else:
-            shifted_amount = alphabet.index(i) + shift
+            shifted_amount = alphabet.index(i) - shift
             shifted_amount %= len(alphabet)
             cipher += alphabet[shifted_amount]
     print(f"This is your {task}d word: \n{cipher}")
